@@ -119,14 +119,14 @@ export default function ServicesSection() {
         <div className="relative rounded-2xl border border-orange-200 p-6 sm:p-10">
           {/* Decorative floating Facebook icon */}
           <div className="absolute -left-70 bottom-6 -rotate-20 hidden h-60 w-60 items-center justify-center md:flex">
-            <img src="/public/images/Floting-FB_Icon.png" alt="#" />
+            <img src="/images/Floting-FB_Icon.png" alt="#" />
           </div>
 
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
             {/* Left — image, added manually */}
             <div className="flex min-h-[300px] w-full items-center justify-center rounded-xl sm:min-h-[360px]">
               <img
-                src="/public/images/Service-banner.png"
+                src="/images/Service-banner.png"
                 alt="Facebook Marketing Services"
                 className="h-full w-full object-contain"
               />

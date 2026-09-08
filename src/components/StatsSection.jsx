@@ -1,21 +1,21 @@
 const stats = [
   {
-    icon: "/public/images/Order Processed.png",
+    icon: "/images/Order Processed.png",
     value: "321,879",
     label: "Order Processed",
   },
   {
-    icon: "/public/images/Available Services.png",
+    icon: "/images/Available Services.png",
     value: "6,245",
     label: "Available Services",
   },
   {
-    icon: "/public/images/Registered User.png",
+    icon: "/images/Registered User.png",
     value: "8,552",
     label: "Registered User",
   },
   {
-    icon: "/public/images/Regional Rank.png",
+    icon: "/images/Regional Rank.png",
     value: "#1",
     label: "Regional Rank",
   },
