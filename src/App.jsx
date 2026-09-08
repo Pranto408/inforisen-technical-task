@@ -1,6 +1,7 @@
 import Advantages from "./components/Advantages"
 import CtaBanner from "./components/CtaBanner"
 import FAQSection from "./components/FAQSection"
+import Footer from "./components/Footer"
 import GrowthTimeline from "./components/GrowthTimeline"
 import HeroBanner from "./components/HeroBanner"
 import PaymentMethods from "./components/PaymentMethods"
@@ -23,6 +24,7 @@ function App() {
       <Advantages />
       <FAQSection />
       <CtaBanner />
+      <Footer/>
     </div>
   )
 }
