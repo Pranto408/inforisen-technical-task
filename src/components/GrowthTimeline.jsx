@@ -31,7 +31,7 @@ const GrowthTimeline = () => {
   return (
     <section className="relative w-full bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8 select-none">
       {/* Header Section */}
-      <div className="max-w-3xl mx-auto text-center space-y-3 sm:space-y-4">
+      <div className="max-w-5xl mx-auto text-center space-y-3 sm:space-y-4">
         <div className="inline-flex items-center justify-center gap-2">
           <span className="h-[2px] w-6 bg-orange-500 rounded-full"></span>
           <span className="text-orange-500 font-semibold text-xs sm:text-sm tracking-wide uppercase">

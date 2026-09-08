@@ -1,10 +1,8 @@
 import React from "react";
-import { Lock, Bot, TrendingUp, Trophy } from "lucide-react";
 
 const advantagesData = [
   {
-    icon: Lock,
-    iconBg: "bg-purple-100 text-purple-600",
+    image: "/images/Adv1.png",
     title: "We Never Ask for Your Password",
     description:
       "You give us your username or profile link. That's it. We can't access your account. When you buy followers from us, we're accessing your public profile. The same profile millions of people can already see.",
@@ -12,24 +10,21 @@ const advantagesData = [
     highlightColor: "text-emerald-500 font-medium",
   },
   {
-    icon: Bot,
-    iconBg: "bg-blue-100 text-blue-600",
+    image: "/images/Adv2.png",
     title: "We Use Real Users, Not Bots",
     description:
       "This is the difference between safe and unsafe SMM services. Unsafe services use bots, fake accounts, and empty profiles. Instagram, Facebook, and YouTube algorithms detect these instantly. That's when bans happen. ➔",
     highlight: null,
   },
   {
-    icon: TrendingUp,
-    iconBg: "bg-pink-100 text-pink-600",
+    image: "/images/Adv3.png",
     title: "We Deliver Gradually",
     description:
       "Imagine gaining 5,000 followers overnight. That looks suspicious. Algorithms notice. They flag your account. We spread delivery over time. 5,000 followers arrive over 2-4 days, not 2 hours. This makes growth look natural. Social media algorithms see steady growth, not sudden spikes.",
     highlight: null,
   },
   {
-    icon: Trophy,
-    iconBg: "bg-amber-100 text-amber-600",
+    image: "/images/Adv4.png",
     title: "Our Track Record",
     description:
       "321,879 completed orders. Not a single customer has reported an account ban caused by our services. That's not luck. We follow platform guidelines. We understand how Instagram, Facebook, YouTube, and TikTok detect fake activity. We stay within those boundaries.",
@@ -74,37 +69,36 @@ const Advantages = () => {
         <div className="hidden md:block absolute top-1/2 left-0 right-0 h-[1px] bg-orange-100/80 -translate-y-1/2 pointer-events-none" />
         <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-[1px] bg-orange-100/80 -translate-x-1/2 pointer-events-none" />
 
-        {advantagesData.map((item, index) => {
-          const IconComponent = item.icon;
-          return (
-            <div
-              key={index}
-              className="bg-white rounded-3xl p-6 sm:p-8 shadow-xl shadow-orange-500/5 border border-slate-100/80 hover:shadow-2xl transition-all duration-300 flex flex-col justify-start space-y-4"
-            >
-              {/* Icon Container */}
-              <div
-                className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center ${item.iconBg}`}
-              >
-                <IconComponent className="w-6 h-6 sm:w-7 sm:h-7" />
-              </div>
-
-              {/* Title */}
-              <h3 className="text-slate-900 font-bold text-base sm:text-lg tracking-tight">
-                {item.title}
-              </h3>
-
-              {/* Description & Highlight */}
-              <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
-                {item.description}{" "}
-                {item.highlight && (
-                  <span className={`block mt-1 ${item.highlightColor}`}>
-                    {item.highlight}
-                  </span>
-                )}
-              </p>
+        {advantagesData.map((item, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-3xl p-6 sm:p-8 shadow-xl shadow-orange-500/5 border border-slate-100/80 hover:shadow-2xl transition-all duration-300 flex flex-col justify-start space-y-4"
+          >
+            {/* Image Icon Container */}
+            <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-start">
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-full object-contain"
+              />
             </div>
-          );
-        })}
+
+            {/* Title */}
+            <h3 className="text-slate-900 font-bold text-base sm:text-lg tracking-tight">
+              {item.title}
+            </h3>
+
+            {/* Description & Highlight */}
+            <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+              {item.description}{" "}
+              {item.highlight && (
+                <span className={`block mt-1 ${item.highlightColor}`}>
+                  {item.highlight}
+                </span>
+              )}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );

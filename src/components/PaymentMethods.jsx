@@ -12,7 +12,7 @@ const PaymentMethods = () => {
   return (
     <section className="relative w-full bg-white py-12 sm:py-16 px-4 overflow-hidden select-none">
       {/* Header Container */}
-      <div className="max-w-3xl mx-auto text-center space-y-3 sm:space-y-4">
+      <div className="max-w-5xl mx-auto text-center space-y-3 sm:space-y-4">
         {/* Subtitle Line */}
         <div className="inline-flex items-center justify-center gap-2">
           <span className="h-[2px] w-6 bg-orange-500 rounded-full"></span>
