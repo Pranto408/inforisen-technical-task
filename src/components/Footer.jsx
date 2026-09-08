@@ -23,7 +23,7 @@ const Footer = () => {
         />
 
         {/* Main Links & Info Grid */}
-        <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8 sm:p-12 lg:p-16">
+        <div className="relative z-10 max-w-410 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8 sm:p-12 lg:p-16">
           {/* Column 1: Logo & About */}
           <div className="space-y-5">
             {/* Logo Placeholder Box */}

@@ -1,16 +1,38 @@
-# React + Vite
+# SMM Panel Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive collection of React UI components designed for SMM (Social Media Marketing) panels operating in Bangladesh. Built with React, Tailwind CSS, Lucide React, and React Icons.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Key Components
 
-## React Compiler
+* **`PaymentMethods.jsx`**: An arc-styled display highlighting supported regional and global payment options (Visa, Mastercard, bKash, Nagad, etc.) over a subtle world map background.
+* **`GrowthTimeline.jsx`**: A 4-step process card layout detailing timeline-based social media growth strategies (What You Do, Why It Works, Estimated Cost/Time).
+* **`Advantages.jsx`**: A 2x2 grid displaying platform features and security guarantees with custom 3D image assets.
+* **`FAQSection.jsx`**: A clean, static two-column grid answering common platform, legal, and service delivery questions.
+* **`CtaBanner.jsx`**: An impactful banner with customized call-to-action buttons and absolute image layout support.
+* **`Footer.jsx`**: A full-width, top-rounded navigation footer with social links, service directories, and contact information.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Framework:** React.js
+* **Styling:** Tailwind CSS
+* **Icons:** `lucide-react`, `react-icons`
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** installed:
+* [Node.js](https://nodejs.org/) (`v16.0` or higher)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/smm-panel-frontend.git](https://github.com/your-username/smm-panel-frontend.git)
+   cd smm-panel-frontend

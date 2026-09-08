@@ -64,7 +64,7 @@ const Advantages = () => {
       </div>
 
       {/* 2x2 Cards Grid Container */}
-      <div className="relative z-10 max-w-5xl mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+      <div className="relative z-10 max-w-380 mx-auto mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         {/* Decorative Grid Center Line (Visible on Medium+ Screens) */}
         <div className="hidden md:block absolute top-1/2 left-0 right-0 h-[1px] bg-orange-100/80 -translate-y-1/2 pointer-events-none" />
         <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-[1px] bg-orange-100/80 -translate-x-1/2 pointer-events-none" />

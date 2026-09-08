@@ -37,7 +37,7 @@ const PaymentMethods = () => {
       </div>
 
       {/* Main Visual Section */}
-      <div className="relative max-w-4xl mx-auto mt-8 sm:mt-12 flex flex-col items-center justify-center">
+      <div className="relative mx-auto mt-8 sm:mt-12 flex flex-col items-center justify-center">
         {/* World Map Background (Centered) */}
         <div
           className="absolute inset-0 bg-no-repeat bg-center bg-contain opacity-20 pointer-events-none"

@@ -4,7 +4,7 @@ const CtaBanner = () => {
   return (
     <section className="relative w-full bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8 select-none">
       {/* Banner Container */}
-      <div className="relative max-w-6xl mx-auto bg-orange-50/70 rounded-3xl p-8 sm:p-12 lg:p-16 overflow-visible border border-orange-100/60 shadow-sm flex flex-col md:flex-row items-center justify-between min-h-[380px]">
+      <div className="relative max-w-380 mx-auto bg-orange-50/70 rounded-3xl p-8 sm:p-12 lg:p-16 overflow-visible border border-orange-100/60 shadow-sm flex flex-col md:flex-row items-center justify-between min-h-[380px]">
         {/* World Map Overlay Graphic */}
         <div
           className="absolute inset-0 bg-no-repeat bg-center bg-contain opacity-20 pointer-events-none"

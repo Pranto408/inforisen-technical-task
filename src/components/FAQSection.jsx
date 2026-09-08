@@ -110,7 +110,7 @@ const FAQSection = () => {
       </div>
 
       {/* Two-Column Static Grid */}
-      <div className="max-w-5xl mx-auto mt-10 sm:mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
+      <div className="max-w-380 mx-auto mt-10 sm:mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
         <div className="space-y-4">{leftColFaqs.map(renderFaqItem)}</div>
         <div className="space-y-4">{rightColFaqs.map(renderFaqItem)}</div>
       </div>

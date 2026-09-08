@@ -31,7 +31,7 @@ const GrowthTimeline = () => {
   return (
     <section className="relative w-full bg-white py-12 sm:py-16 px-4 sm:px-6 lg:px-8 select-none">
       {/* Header Section */}
-      <div className="max-w-5xl mx-auto text-center space-y-3 sm:space-y-4">
+      <div className="max-w-5xl w-full mx-auto text-center space-y-3 sm:space-y-4">
         <div className="inline-flex items-center justify-center gap-2">
           <span className="h-[2px] w-6 bg-orange-500 rounded-full"></span>
           <span className="text-orange-500 font-semibold text-xs sm:text-sm tracking-wide uppercase">
@@ -53,7 +53,7 @@ const GrowthTimeline = () => {
       </div>
 
       {/* Cards Grid */}
-      <div className="max-w-7xl mx-auto mt-10 sm:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="max-w-380 mx-auto mt-10 sm:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {stepsData.map((card, index) => (
           <div
             key={index}
